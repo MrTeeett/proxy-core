@@ -1,0 +1,46 @@
+# Ignore Go packages and cache
+/bin/
+/bin/*
+/out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.test
+*.coverprofile
+
+# Ignore Go cache directories
+/vendor/
+*.mod
+*.sum
+/go/pkg/
+go.work
+go.work.sum
+
+# Ignore debugging files
+__debug_bin*
+*.prof
+*.trace
+*.out
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Ignore build files
+node_modules/
+.DS_Store
+*.bak
+*.old
